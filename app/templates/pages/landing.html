@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Music Merch Landing Page</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="/static/css/Landing.css">
 </head>
 <body>
@@ -84,5 +85,18 @@
             </form>
         </div>
     </section>
+
+    <script type="text/javascript">
+        ScrollReveal().reveal('.container',
+        {
+            delay: 200,
+            duration: 1000,
+            distance: '50px',
+            origin: 'bottom',
+            opacity: 0,
+            easing: 'ease-in-out',
+            reset: true
+        });
+    </script>
 </body>
 </html>
